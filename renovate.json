@@ -17,6 +17,11 @@
     {
       "matchCategories": ["python"],
       "groupName": "Python Dependencies"
+    },
+    {
+      "automerge": true,
+      "matchUpdateTypes": ["minor"],
+      "matchManagers": ["Dockerfiles"]
     }
   ]
 }
