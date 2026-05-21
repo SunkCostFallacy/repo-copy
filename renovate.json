@@ -12,5 +12,11 @@
     "dependency-update", 
     "deptype:{{manager}}", 
     "updatetype:{{updateType}}"
+  ],
+  "packageRules": [
+    {
+      "matchCategories": ["python"],
+      "groupName": "Python Dependencies"
+    }
   ]
 }
