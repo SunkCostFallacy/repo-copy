@@ -7,5 +7,10 @@
   ],
   "dockerfile": {
     "managerFilePatterns": ["**/Earthfile"]
-  }
+  },
+  "labels": [
+    "dependency-update", 
+    "deptype:{{manager}}", 
+    "updatetype:{{updateType}}"
+  ]
 }
