@@ -21,7 +21,7 @@
     {
       "automerge": true,
       "matchUpdateTypes": ["minor"],
-      "matchManagers": ["Dockerfiles"]
+      "matchManagers": ["dockerfile"]
     }
   ]
 }
